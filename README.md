@@ -1,7 +1,8 @@
 # youtube-feed-free
 
-A simple web page with a youtube search bar, so you can block YouTube home page (feed) and take advantage of youtube tutorials without geting distracted. Build the search bar with html, styled it with css to look exacly like youtube search bar. Uses javascrip to revice the query and redirect it to youtube. 
+A simple web page with a darkmode youtube search bar, so you can block YouTube home page (feed) and take advantage of youtube tutorials without geting distracted. Built the search bar with html, styled it with css to look exacly like youtube search bar. Uses javascrip to revice the query and redirect it to youtube. 
 
+![youtube-feed-free](https://user-images.githubusercontent.com/50026515/151962804-90f26ef7-6967-417b-a205-74ee71f18e85.png)
 
 ## The problem
 
