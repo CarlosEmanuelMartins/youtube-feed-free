@@ -1,6 +1,6 @@
 # youtube-feed-free
 
-A simple webpage (carlosemanuelmartins.com/youtube-feed-free) with a darkmode youtube search bar, so you can block YouTube home page (feed) and take advantage of youtube tutorials without geting distracted. Built the search bar with html, styled it with css to look exacly like youtube search bar. Uses javascrip to revice the query and redirect it to youtube. 
+A simple webpage [carlosemanuelmartins.com/youtube-feed-free](carlosemanuelmartins.com/youtube-feed-free) with a darkmode youtube search bar, so you can block YouTube home page (feed) and take advantage of youtube tutorials without geting distracted. Built the search bar with html, styled it with css to look exacly like youtube search bar. Uses javascrip to revice the query and redirect it to youtube. 
 
 ![youtube-feed-free](https://user-images.githubusercontent.com/50026515/151962804-90f26ef7-6967-417b-a205-74ee71f18e85.png)
 
@@ -49,7 +49,7 @@ Must Allow to be able to search
 
 This are the 3 formats that a channel can take white list this so you can acess channel page
 
-> CAUTION www.youtube.com/c/* can be abreviated to www.youtube.com/* , many youtuber do this to have more memorable links if you open a channel link and it does not work just add "righ-click-> copy link adress" past in the url bar and add the `c/*` part. Same is true for the `www.youtube.com/user/*` just add the `user/`
+> CAUTION `www.youtube.com/c/*` can be abreviated to `www.youtube.com/*` , many youtuber do this to have more memorable links if you open a channel link and it does not work just add "righ-click-> copy link adress" past in the url bar and add the `c/*` part. Same is true for the `www.youtube.com/user/*` just add the `user/`
 
 * `www.youtube.com/user/*`
 * `www.youtube.com/c/*`
@@ -71,7 +71,7 @@ allow this url to have acess to the youtube creator studio: uplloading videos, m
 * `www.youtube.com/playlist?list=*`
 
 I belive some youtube support pages and error messages have this url type
-* `www.youtube.com/s/*
+* `www.youtube.com/s/*`
 
 This url is used to fallow links from youtube to outside of youtube
 * `https://www.youtube.com/redirect?event=*`
