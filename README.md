@@ -1,6 +1,6 @@
 # youtube-feed-free
 
-A simple web page with a darkmode youtube search bar, so you can block YouTube home page (feed) and take advantage of youtube tutorials without geting distracted. Built the search bar with html, styled it with css to look exacly like youtube search bar. Uses javascrip to revice the query and redirect it to youtube. 
+A simple webpage (carlosemanuelmartins.com/youtube-feed-free) with a darkmode youtube search bar, so you can block YouTube home page (feed) and take advantage of youtube tutorials without geting distracted. Built the search bar with html, styled it with css to look exacly like youtube search bar. Uses javascrip to revice the query and redirect it to youtube. 
 
 ![youtube-feed-free](https://user-images.githubusercontent.com/50026515/151962804-90f26ef7-6967-417b-a205-74ee71f18e85.png)
 
@@ -12,11 +12,13 @@ Youtube feed, like any social media feed, is made with the intent to maximise us
 
 ## how to use
 
-1. Book mark the youtube-feed-free url 
+1. Book mark the carlosemanuelmartins.com/youtube-feed-free
 2. Use an app like [coldturky](https://getcoldturkey.com/) or [leachblock](https://chrome.google.com/webstore/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok) to Block the youtube feed at `youtube.com` and `youtube.com/index`
 3. Allow List at lest the urls `www.youtube.com/watch?v=*` and `www.youtube.com/results?search_query=*` so you can view videos and query youtube respectivly
 4. set your blocker app of choise to redirect you to  youtube-feed-free when it blocks you from a page.
 5. custumise the allow/block list of your app of choise to allow a more restictive or relaxed youtube experece blocking explore, subscription, history, playlist , specific channels, videos...
+
+> if you dont feel confortable with blocker you can use rederect extencion, to rederect youtube.com and youtube.com/index to carlosemanuelmartins.com/youtube-feed-free
 
 ### Personal advice
 
@@ -71,7 +73,13 @@ allow this url to have acess to the youtube creator studio: uplloading videos, m
 I belive some youtube support pages and error messages have this url type
 * `www.youtube.com/s/*
 
+This url is used to fallow links from youtube to outside of youtube
+* `https://www.youtube.com/redirect?event=*`
+
 ### Plain text urls
+
+> `*` represents a whildcard, the simbol for this whild card may change depending no your program
+
 
 ```
 youtube.com/
@@ -89,7 +97,5 @@ www.youtube.com/feed/history
 studio.youtube.com/*
 www.youtube.com/playlist?list=*
 youtube.com/s/*
-youtube.com/
-youtube.com/channel/*
-youtube.com/index
+https://www.youtube.com/redirect?event=*
 ```
