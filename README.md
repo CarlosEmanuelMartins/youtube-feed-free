@@ -76,10 +76,15 @@ I belive some youtube support pages and error messages have this url type
 This url is used to fallow links from youtube to outside of youtube
 * `https://www.youtube.com/redirect?event=*`
 
+This url blocks youtube shorts
+* `https://www.youtube.com/shorts/*`
+
+this url leads to the treading page
+* `https://www.youtube.com/feed/trending*`
+
 ### Plain text urls
 
 > `*` represents a whildcard, the simbol for this whild card may change depending no your program
-
 
 ```
 youtube.com/
