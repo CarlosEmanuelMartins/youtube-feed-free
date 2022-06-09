@@ -69,6 +69,7 @@ allow this url to have acess to the youtube creator studio: uplloading videos, m
 
 //this will allow playlist
 * `www.youtube.com/playlist?list=*`
+* `https://www.youtube.com/watch?list=*`
 
 I belive some youtube support pages and error messages have this url type
 * `www.youtube.com/s/*`
@@ -101,6 +102,7 @@ www.youtube.com/feed/library
 www.youtube.com/feed/history
 studio.youtube.com/*
 www.youtube.com/playlist?list=*
+www.youtube.com/watch?list=*
 youtube.com/s/*
 https://www.youtube.com/redirect?event=*
 ```
